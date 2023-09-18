@@ -1,0 +1,15 @@
+config:
+  send_anonymous_usage_stats: false
+demo:
+  target: dev
+  outputs:
+    dev:
+      account: lf84111.uk-south.azure
+      database: dbt_hol_dev
+      password: Letmein04
+      role: dbt_dev_role
+      schema: unknown
+      threads: 4
+      type: snowflake
+      user: ghowlett2020
+      warehouse: dbt_dev_wh
