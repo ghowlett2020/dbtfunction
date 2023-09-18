@@ -6,7 +6,7 @@ demo:
     dev:
       account: lf84111.uk-south.azure
       database: dbt_hol_dev
-      password: Letmein04
+      password: <to add>
       role: dbt_dev_role
       schema: unknown
       threads: 4
